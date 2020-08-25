@@ -1,0 +1,17 @@
+/* .favoritegif {
+    display: inline-block;
+} */
+
+.container {
+    top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+
+}
+.nameandemail {
+    background-color: grey;
+    border-radius: 10px;
+    margin: 5px;
+    align-self: center;
+
+}

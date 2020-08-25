@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <button onclick="fetch()"></button> -->
+    <!-- <embed src=main.js type="iframe">
+<iframe src="xhr" frameborder="10"></iframe> -->
+    <!-- <img src="xhr" alt=""> -->
+
+
+    <!-- <input type="text">
+<button class="searchButton"> search for a gif!</button>
+<div class="favoritegifs">
+<h1>Favorite Gifs</h1>
+</div>
+<p>-------------------------------------------------------- </p>
+<div class="gifContainer">
+
+    
+</div> -->
+    <script id="people-template" type="text/x-handlebars-template">
+        {{#each details}}
+        <div class="nameandemail">
+            <span id="{{id}}"><div >{{name.title}} {{name.first}} {{name.last}}</div><div>{{email}}</div></span>
+        </div>
+        {{/each}}
+    </script>
+
+
+    <div class="container">
+<h1>My People</h1>
+    </div>
+
+
+    <script src="jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
